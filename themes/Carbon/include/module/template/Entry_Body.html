@@ -1,0 +1,99 @@
+<!-- BEGIN_MODULE Entry_Body -->
+<!-- BEGIN notFound -->
+<p class="acms-alert">ただいまページを準備しております。もうしばらくお待ちください。</p>
+<!-- END notFound -->
+
+<!-- BEGIN entry:loop -->
+<article class="article">
+	<!--#include file="/admin/entry/revision-info.html"-->
+	<header class="js-biggerlink">
+	<!--#include file="/admin/entry/title.html"-->
+	<!-- BEGIN title:veil -->
+		<!-- BEGIN_MODULE Touch_Entry -->
+		<h1 class="entry-title"><a href="{titleUrl}">{title}[raw]</a></h1>
+		<!-- END_MODULE Touch_Entry -->
+		<!-- BEGIN_MODULE Touch_NotEntry -->
+		<h2 class="entry-title"><a href="{titleUrl}">{title}[raw]</a></h2>
+		<!-- END_MODULE Touch_NotEntry -->
+	<!-- END title:veil -->
+		<p class="entry-date"><!-- BEGIN date:veil --><span><time datetime="{date#Y}-{date#m}-{date#d}">{date#Y}/{date#m}/{date#d}</time></span><!-- END date:veil --></p>
+	<!-- BEGIN new:touch -->
+		<div class="new"><span>NEW!!</span></div>
+	<!-- END new:touch -->
+	</header>
+	<section>
+		<!-- BEGIN unit:veil -->
+		<!--#include file="/include/unit.html"-->
+		<hr class="clearHidden" />
+		<!-- END unit:veil -->
+		
+		<!-- BEGIN continueLink:veil -->
+    <p class="continue"><a href="{continueUrl}" class="btn">続きを読む<i class="acms-icon-arrow-small-right"></i></a></p>
+		<!-- END continueLink:veil -->
+		
+		<!-- BEGIN adminEntryEdit -->
+		<!--#include file="/admin/entry/edit.html"-->
+		<!--#include file="/admin/entry/add.html"-->
+		<!-- END adminEntryEdit -->
+		
+		<!-- BEGIN adminFormEdit -->
+		<!--#include file="/admin/form2/edit.html"-->
+		<!-- END adminFormEdit -->
+	</section>
+	<!-- BEGIN_IF [%{EID}/nem] -->
+	<!-- BEGIN footer:veil -->
+	<footer>
+		<div class="entry-tag">
+      <!-- BEGIN tag:veil --><!-- BEGIN tag:loop --><a href="{url}" class="acms-inline-space acms-label">{name}</a><!-- END tag:loop --><!-- END tag:veil -->
+    </div>
+		<!--#include file="/include/social/sns_entry.html"-->
+	</footer>
+	<!-- END footer:veil -->
+	<!-- END_IF -->
+	<!--#include file="/admin/entry/action.html"-->
+</article>
+<!-- END entry:loop -->
+
+<!-- BEGIN pager:veil -->
+<div class="acms-text-center">
+	<ul class="acms-pager">
+		<!-- BEGIN backLink --><li><a href="{url}">« 前の{backNum}件</a></li><!-- END backLink -->
+		<!-- BEGIN firstPage:veil --><li{pageCurAttr}[raw]><span><a href="{firstPageUrl}">{firstPage}</a></span></li><!-- END firstPage:veil -->
+		<!-- BEGIN page:loop --><!-- BEGIN glue --><!-- END glue --><li{pageCurAttr}[raw]><span><!-- BEGIN link#front --><a href="{url}"><!-- END link#front -->{page}<!-- BEGIN link#rear --></a><!-- END link#rear --></span></li><!-- END page:loop -->
+		<!-- BEGIN lastPage:veil --><li>...</li><li{pageCurAttr}[raw]><span><a href="{lastPageUrl}">{lastPage}</a></span></li><!-- END lastPage:veil -->
+		<!-- BEGIN forwardLink --><li><a href="{url}">次の{forwardNum}件 »</a></li><!-- END forwardLink -->
+	</ul>
+</div>
+<!-- END pager:veil -->
+
+<!-- BEGIN simplePager:veil -->
+<ul class="serialNav clearfix">
+	<li class="serialNavItem serialNavItemPrev"><!-- BEGIN prevPage -->
+		<a href="{url}">« 前ページ</a>
+		<!-- END prevPage -->
+	</li>
+	<li class="serialNavItem serialNavItemNext"><!-- BEGIN nextPage --><a href="{url}">次ページ »</a>
+		<!-- END nextPage -->
+	</li>
+</ul>
+<!-- END simplePager:veil -->
+
+<!-- BEGIN serialNavi:veil -->
+<ul class="acms-pager">
+	<li>
+		<!-- BEGIN prevNotFound --><!-- END prevNotFound -->
+		<!-- BEGIN prevLink -->
+		<a href="{url}">« {name}[trim(27, '...')|escape]</a>
+		<!-- END prevLink -->
+		 </li>
+	<li><a href="{upperUrl}">一覧</a></li>
+	<li> 
+		<!-- BEGIN nextNotFound --><!-- END nextNotFound -->
+		<!-- BEGIN nextLink -->
+		<a href="{url}">{name}[trim(27, '...')|escape] » </a>
+		<!-- END nextLink -->
+	</li>
+</ul>
+<!-- END serialNavi:veil -->
+
+<!-- END_MODULE Entry_Body -->

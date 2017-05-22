@@ -1,0 +1,41 @@
+<!-- BEGIN layout#display -->
+<!-- BEGIN_MODULE User_Profile id="user_profile" -->
+<div class="module">
+<!-- BEGIN user:loop -->
+<div class="user_profile">
+	<div class="profile_header"><!-- BEGIN image:veil -->
+	  <img src="%{ARCHIVES_DIR}{image@path}" width="128" height="128" alt="{image@alt}" /><!-- END image:veil --><!-- BEGIN name:veil -->
+	  <p class="user_name">{name}</p><!-- END name:veil -->
+  </div>
+  <div class="profile_body"><!-- BEGIN profile:veil -->
+  	<p class="profile_text">{profile}[raw]</p><!-- END profile:veil --><!-- BEGIN sns_account:veil -->
+    <div class="sns_account"><!-- BEGIN twitter:veil -->
+      <a href="{twitter}" class="twitter"><i class="acms-icon-twitter-square"></i></a><!-- END twitter:veil --><!-- BEGIN twitter:veil -->
+      <a href="{facebook}" class="facebook"><i class="acms-icon-facebook-square"></i></a><!-- END twitter:veil --><!-- BEGIN twitter:veil -->
+      <a href="{googlePlus}" class="gplus"><i class="acms-icon-gplus-square"></i></a><!-- END twitter:veil -->
+    </div><!-- END sns_account:veil -->
+  </div>
+</div>
+<!-- END user:loop -->
+</div>
+<!-- END_MODULE User_Profile -->
+<!-- END layout#display -->
+
+<!-- BEGIN layout#dummy -->
+<div class="module">
+	<div class="user_profile">
+		<div class="profile_header">
+			<img src="/images/prof_dummy.jpg" width="128" height="128" alt="プロフィール画像">
+			<p class="user_name">YOUR NAME</p>
+		</div>
+		<div class="profile_body">
+			<p class="profile_text">ここにプロフィールが入ります。管理ページ > ユーザー > カスタム設定より各種設定してください。</p>
+			<div class="sns_account">
+				<a href="https://twitter.com/" class="twitter"><i class="acms-icon-twitter-square"></i></a>
+				<a href="https://www.facebook.com/" class="facebook"><i class="acms-icon-facebook-square"></i></a>
+				<a href="https://www.google.co.jp/" class="gplus"><i class="acms-icon-gplus-square"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END layout#dummy -->

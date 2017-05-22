@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<!--#include file="/include/head/meta.html" -->
+<!--#include file="/include/head/link.html" -->
+<!--#include file="/include/head/js.html" -->
+<!-- BEGIN_MODULE Blog_Field -->
+<style>
+	#site_header {
+		<!-- BEGIN header-bgColor:veil -->
+		background-color: {header-bgColor};
+		<!-- END header-bgColor:veil -->
+		<!-- BEGIN header-bgImage:veil -->
+		background-image: url("%{ARCHIVES_DIR}{header-bgImage@path}");
+		<!-- END header-bgImage:veil -->
+	}
+	#page_main {
+		<!-- BEGIN main-bgColor:veil -->
+		background-color: {main-bgColor};
+		<!-- END main-bgColor:veil -->
+		<!-- BEGIN main-bgImage:veil -->
+		background-image: url("%{ARCHIVES_DIR}{main-bgImg@path}");
+		<!-- END main-bgImage:veil -->
+	}
+	<!-- BEGIN main-themeColor:veil -->
+	.article {
+		border-color: {main-themeColor};
+	}
+	.article section h2::after {
+		background: {main-themeColor};
+	}
+	.article section h3,
+	.article section h4 {
+		color: {main-themeColor};
+	}
+	<!-- END main-themeColor:veil -->
+</style>
+<!-- END_MODULE Blog_Field -->	
+</head>
+<body>
+	<!--#include file="/admin/action.html"-->
+	<!--#include file="/include/social/sns_script.html" -->
+	<nav id="navbar">
+		<div class="container">
+			<div class="home">
+				<a href="%{BLOG_URL}"><i class="acms-icon-home acms-icon-bg acms-round"></i></a>
+			</div>
+			<button class="header-btn js-offcanvas-btn js-offcanvas-btn-r" data-target="#offcanvas" aria-label="メニューを開く">
+				<span class="header-btn-line"></span>
+				<span class="header-btn-line"></span>
+				<span class="header-btn-line"></span>
+			</button>
+		</div>
+	</nav>
+	<header id="site_header" role="banner">
+		<div class="container">
+			<!-- BEGIN_MODULE Touch_Top -->
+			<h1 class="site_title"><a href="%{BLOG_URL}">%{BLOG_NAME}</a></h1>
+			<!-- END_MODULE Touch_Top -->
+			<!-- BEGIN_MODULE Touch_NotTop -->
+			<p class="site_title"><a href="%{BLOG_URL}">%{BLOG_NAME}</a></p>
+			<!-- END_MODULE Touch_NotTop -->
+			<p class="site_description">%{META_DESCRIPTION}</p>
+		</div>
+	</header>
+	<div id="page_main" role="main">
+		<div class="container">
+
+<!--#include file="/admin/layout/action.html"-->
+
+<!-- BEGIN_MODULE Layout id="carbonIndexLayout" -->
+<!-- BEGIN display -->
+<!--#include file="/include/layout.html" -->
+<!-- END display -->
+
+<!-- BEGIN edit -->
+<div class="acms-container">
+  <!--#include file="/admin/layout/edit.html"-->
+</div>
+<!-- END edit -->
+<!-- END_MODULE Layout -->
+
+
+		</div>
+	</div>
+	<footer id="site_footer" role="contentinfo">
+		<div class="container">
+			<p class="copyright">&copy; <small>%{DOMAIN}</small> / powered by <a href="https://www.a-blogcms.jp/"><img src="/images/acms.svg" alt="a-blog cms"></a></p>
+		</div>
+	</footer>
+</body>
+</html>

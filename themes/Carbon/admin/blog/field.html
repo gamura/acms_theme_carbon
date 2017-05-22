@@ -1,0 +1,70 @@
+<table class="acms-admin-table-admin-edit">
+	<tr>
+		<th>ヘッダー背景色</th>
+		<td>
+			<input type="text" name="header-bgColor" value="{header-bgColor}" class="acms-admin-form-width-mini" placeholder="#ff0000"/>
+			<input type="hidden" name="field[]" value="header-bgColor" />
+		</td>
+	</tr>
+	<tr>
+		<th>ヘッダー背景画像 <i class="acms-admin-icon-tooltip js-acms-tooltip" data-acms-tooltip="イメージ画像をヘッダー全体に配置します"></i></th>
+		<td class="js-img_resize_cf">
+			<!-- BEGIN_IF [{header-bgImage@path}/nem] -->
+			<div>
+				<img src="%{ARCHIVES_DIR}{header-bgImage@path}" class="acms-admin-img-responsive js-img_resize_preview" style="width:1280px;">
+			</div>
+			<input type="hidden" name="header-bgImage@old" value="{header-bgImage@path}"/>
+			<div class="acms-admin-form-checkbox">
+				<input type="checkbox" name="header-bgImage@edit" value="delete" id="input-checkbox-header-bgImage@edit" />
+				<label for="input-checkbox-header-bgImage@edit"><i class="acms-admin-ico-checkbox"></i> 削除</label>
+			</div>
+			<!-- ELSE -->
+			<div>
+				<img src="" class="acms-admin-img-responsive js-img_resize_preview" style="width:1280px;display:none;">
+			</div>
+			<!-- END_IF -->
+			<input type="file" name="header-bgImage" size="20" class="js-img_resize_input" /><br />
+			<input type="hidden" name="field[]" value="header-bgImage" />
+			<input type="hidden" name="header-bgImage:extension" value="image" />
+			<input type="hidden" name="header-bgImage@width" value="1280" />
+			<input type="hidden" name="header-bgImage@filename" value="" />
+		</td>
+	</tr>
+	<tr>
+		<th>メインボディ背景色</th>
+		<td>
+			<input type="text" name="main-bgColor" value="{main-bgColor}" class="acms-admin-form-width-mini" placeholder="#ff0000"/>
+			<input type="hidden" name="field[]" value="main-bgColor" />
+		</td>
+	</tr>
+	<tr>
+		<th>メインボディ背景画像（タイル）<i class="acms-admin-icon-tooltip js-acms-tooltip" data-acms-tooltip="設定した画像が繰り返し配置されます。"></i></th>
+		<td class="js-img_resize_cf">
+			<!-- BEGIN_IF [{main-bgImg@path}/nem] -->
+			<div>
+				<img src="%{ARCHIVES_DIR}{main-bgImg@path}" class="acms-admin-img-responsive js-img_resize_preview">
+			</div>
+			<input type="hidden" name="main-bgImg@old" value="{main-bgImg@path}" />
+			<div class="acms-admin-form-checkbox">
+				<input type="checkbox" name="main-bgImg@edit" value="delete" id="input-checkbox-main-bgImg@edit" />
+				<label for="input-checkbox-main-bgImg@edit"><i class="acms-admin-ico-checkbox"></i> 削除</label>
+			</div>
+			<!-- ELSE -->
+			<div>
+				<img src="" class="acms-admin-img-responsive js-img_resize_preview" style="display:none;">
+			</div>
+			<!-- END_IF -->
+			<input type="file" name="main-bgImg" size="20" class="js-img_resize_input" /><br />
+			<input type="hidden" name="field[]" value="main-bgImg" />
+			<input type="hidden" name="main-bgImg:extension" value="image" />
+			<input type="hidden" name="main-bgImg@filename" value="" />
+		</td>
+	</tr>
+	<tr>
+		<th>テーマカラー</th>
+		<td>
+			<input type="text" name="main-themeColor" value="{main-themeColor}" class="acms-admin-form-width-mini" placeholder="#ff0000"/>
+			<input type="hidden" name="field[]" value="main-themeColor" />
+		</td>
+	</tr>
+</table>
