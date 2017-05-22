@@ -1,12 +1,14 @@
 # a-blog cms 用のテーマ『Carbon』
 
 ---
+
 version 1.0.0
 
 Author: Hisato Ishikawa    
 Web: [hisato.me](https://hisato.me/)
 
-(C) Hisato Ishikawa
+Copyright (c) 2017 Hisato Ishikawa
+
 ---
 
 ## このテーマについて
@@ -26,4 +28,36 @@ tpl_entry_add   : index.html
 tpl_login       : login.html
 ```
 
-テンプレートは、index.html のみで作成しています。   
+テンプレートは、index.html のみで作成しています。
+
+## ビルトインモジュール
+
+使用しているビルトインモジュールは次の4つです。
+
+* エントリー本文（Entry_Body)
+* エントリーリスト（Entry_List）
+* カテゴリーリスト（Category_List）
+* ユーザープロフィール（User_Profile）
+
+## レイアウト機能
+
+2カラムのメイン部分には、a-blog cms のレイアウト機能を採用しています。
+これをつかうことで、左右が逆のレイアウトに変更できたり、モジュールの移動も可能になります。
+
+## カスタムフィールド
+
+ブログのカスタムフィールドに
+
+* ヘッダーの背景色 or 画像
+* メインボディの背景色 or 画像
+* キーカラー
+
+を用意しました。雰囲気を変えるのにご利用ください。
+
+## サイズセレクト
+
+画像や動画、地図のサイズは「横幅100%」の一択です。
+
+
+ 
+ 
