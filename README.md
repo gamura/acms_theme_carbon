@@ -1,2 +1,8 @@
-# acms_theme_carbon
-a-blog cms 用のテーマ。シンプルなブログスタイル
+# a-blog cms 用のテーマ『Carbon』
+
+---
+
+Author: Hisato Ishikawa
+[hisato.me](https://hisato.me/)
+
+---
