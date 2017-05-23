@@ -163,6 +163,55 @@ config:
     - { config_key: column_def_add_file_field_4, config_value: '', config_sort: '79', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
     - { config_key: column_def_add_file_field_5, config_value: '', config_sort: '80', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
     - { config_key: blog_theme_color, config_value: '', config_sort: '1', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_order, config_value: sort-asc, config_sort: '1', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_limit, config_value: '', config_sort: '2', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_loop_class, config_value: '', config_sort: '3', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@fileSize, config_value: '', config_sort: '4', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@largePath, config_value: '', config_sort: '5', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@largeX, config_value: '', config_sort: '6', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@largeY, config_value: '', config_sort: '7', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@largeAlt, config_value: '', config_sort: '8', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@largeFileSize, config_value: '', config_sort: '9', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@tinyPath, config_value: '', config_sort: '10', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@tinyX, config_value: '', config_sort: '11', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@tinyY, config_value: '', config_sort: '12', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@tinyAlt, config_value: '', config_sort: '13', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@tinyFileSize, config_value: '', config_sort: '14', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@squarePath, config_value: '', config_sort: '15', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@squareX, config_value: '', config_sort: '16', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@squareY, config_value: '', config_sort: '17', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@squareAlt, config_value: '', config_sort: '18', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@squareFileSize, config_value: '', config_sort: '19', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@secret, config_value: '', config_sort: '20', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@fileSize, config_value: '', config_sort: '21', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@largePath, config_value: '', config_sort: '22', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@largeX, config_value: '', config_sort: '23', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@largeY, config_value: '', config_sort: '24', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@largeAlt, config_value: '', config_sort: '25', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@largeFileSize, config_value: '', config_sort: '26', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@tinyPath, config_value: '', config_sort: '27', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@tinyX, config_value: '', config_sort: '28', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@tinyY, config_value: '', config_sort: '29', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@tinyAlt, config_value: '', config_sort: '30', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@tinyFileSize, config_value: '', config_sort: '31', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@squarePath, config_value: '', config_sort: '32', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@squareX, config_value: '', config_sort: '33', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@squareY, config_value: '', config_sort: '34', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@squareAlt, config_value: '', config_sort: '35', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@squareFileSize, config_value: '', config_sort: '36', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@secret, config_value: '', config_sort: '37', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_status, config_value: '', config_sort: '38', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_src, config_value: '', config_sort: '39', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_img, config_value: '', config_sort: '40', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_url, config_value: '', config_sort: '41', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_alt, config_value: '', config_sort: '42', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_attr1, config_value: '', config_sort: '43', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_attr2, config_value: '', config_sort: '44', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_target, config_value: '', config_sort: '45', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_datestart, config_value: '', config_sort: '46', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_timestart, config_value: '', config_sort: '47', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_dateend, config_value: '', config_sort: '48', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: banner_timeend, config_value: '', config_sort: '49', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
     - { config_key: entry_edit_inplace, config_value: 'on', config_sort: '1', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
     - { config_key: unit_group, config_value: 'off', config_sort: '2', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
     - { config_key: related_entry_function, config_value: 'off', config_sort: '3', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
@@ -283,113 +332,70 @@ config:
     - { config_key: '@layout_add_type_group', config_value: layout_add_type, config_sort: '118', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
     - { config_key: '@layout_add_type_group', config_value: layout_add_type_set, config_sort: '119', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
     - { config_key: '@layout_add_type_group', config_value: layout_add_type_label, config_sort: '120', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: layout_group_class, config_value: '', config_sort: '121', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: layout_group_label, config_value: '', config_sort: '122', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: '@layout_group', config_value: layout_group_class, config_sort: '123', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: '@layout_group', config_value: layout_group_label, config_sort: '124', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_document, config_value: txt, config_sort: '125', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_document, config_value: doc, config_sort: '126', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_document, config_value: pdf, config_sort: '127', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_document, config_value: ppt, config_sort: '128', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_document, config_value: xls, config_sort: '129', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_document, config_value: csv, config_sort: '130', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_document, config_value: docx, config_sort: '131', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_document, config_value: pptx, config_sort: '132', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_document, config_value: xlsx, config_sort: '133', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_archive, config_value: lzh, config_sort: '134', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_archive, config_value: zip, config_sort: '135', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_archive, config_value: rar, config_sort: '136', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_archive, config_value: gca, config_sort: '137', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_archive, config_value: sit, config_sort: '138', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: 3gp, config_sort: '139', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: 3g2, config_sort: '140', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: asf, config_sort: '141', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: avi, config_sort: '142', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: dat, config_sort: '143', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: fli, config_sort: '144', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: flc, config_sort: '145', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: flv, config_sort: '146', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: mkv, config_sort: '147', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: mpg, config_sort: '148', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: mov, config_sort: '149', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: mp4, config_sort: '150', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: ogg, config_sort: '151', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: qt, config_sort: '152', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: rm, config_sort: '153', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: ram, config_sort: '154', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: rmvb, config_sort: '155', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: str, config_sort: '156', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: swf, config_sort: '157', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: ts, config_sort: '158', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: viv, config_sort: '159', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: vob, config_sort: '160', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: wmv, config_sort: '161', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_movie, config_value: amc, config_sort: '162', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_audio, config_value: aac, config_sort: '163', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_audio, config_value: ac3, config_sort: '164', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_audio, config_value: amr, config_sort: '165', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_audio, config_value: mmf, config_sort: '166', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_audio, config_value: mp2, config_sort: '167', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_audio, config_value: mp3, config_sort: '168', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_audio, config_value: mp4, config_sort: '169', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_audio, config_value: mpc, config_sort: '170', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_audio, config_value: ogg, config_sort: '171', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_audio, config_value: ra, config_sort: '172', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_audio, config_value: wav, config_sort: '173', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: file_extension_audio, config_value: wma, config_sort: '174', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_order, config_value: sort-asc, config_sort: '1', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_limit, config_value: '', config_sort: '2', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_loop_class, config_value: '', config_sort: '3', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@fileSize, config_value: '', config_sort: '4', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@largePath, config_value: '', config_sort: '5', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@largeX, config_value: '', config_sort: '6', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@largeY, config_value: '', config_sort: '7', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@largeAlt, config_value: '', config_sort: '8', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@largeFileSize, config_value: '', config_sort: '9', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@tinyPath, config_value: '', config_sort: '10', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@tinyX, config_value: '', config_sort: '11', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@tinyY, config_value: '', config_sort: '12', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@tinyAlt, config_value: '', config_sort: '13', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@tinyFileSize, config_value: '', config_sort: '14', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@squarePath, config_value: '', config_sort: '15', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@squareX, config_value: '', config_sort: '16', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@squareY, config_value: '', config_sort: '17', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@squareAlt, config_value: '', config_sort: '18', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@squareFileSize, config_value: '', config_sort: '19', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-02d72effa9ee39c1201bd6e1d997bb96@secret, config_value: '', config_sort: '20', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@fileSize, config_value: '', config_sort: '21', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@largePath, config_value: '', config_sort: '22', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@largeX, config_value: '', config_sort: '23', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@largeY, config_value: '', config_sort: '24', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@largeAlt, config_value: '', config_sort: '25', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@largeFileSize, config_value: '', config_sort: '26', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@tinyPath, config_value: '', config_sort: '27', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@tinyX, config_value: '', config_sort: '28', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@tinyY, config_value: '', config_sort: '29', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@tinyAlt, config_value: '', config_sort: '30', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@tinyFileSize, config_value: '', config_sort: '31', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@squarePath, config_value: '', config_sort: '32', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@squareX, config_value: '', config_sort: '33', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@squareY, config_value: '', config_sort: '34', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@squareAlt, config_value: '', config_sort: '35', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@squareFileSize, config_value: '', config_sort: '36', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner-cad5c06aa1fa69cab9c2cd27e87c0326@secret, config_value: '', config_sort: '37', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_status, config_value: '', config_sort: '38', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_src, config_value: '', config_sort: '39', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_img, config_value: '', config_sort: '40', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_url, config_value: '', config_sort: '41', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_alt, config_value: '', config_sort: '42', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_attr1, config_value: '', config_sort: '43', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_attr2, config_value: '', config_sort: '44', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_target, config_value: '', config_sort: '45', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_datestart, config_value: '', config_sort: '46', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_timestart, config_value: '', config_sort: '47', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_dateend, config_value: '', config_sort: '48', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
-    - { config_key: banner_timeend, config_value: '', config_sort: '49', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: layout_group_class, config_value: layout-column-1, config_sort: '121', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: layout_group_class, config_value: layout-column-2, config_sort: '122', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: layout_group_class, config_value: layout-column-3, config_sort: '123', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: layout_group_class, config_value: layout-column-4, config_sort: '124', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: layout_group_label, config_value: 1カラム, config_sort: '125', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: layout_group_label, config_value: 2カラム, config_sort: '126', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: layout_group_label, config_value: 3カラム, config_sort: '127', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: layout_group_label, config_value: 4カラム, config_sort: '128', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: '@layout_group', config_value: layout_group_class, config_sort: '129', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: '@layout_group', config_value: layout_group_label, config_sort: '130', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_document, config_value: txt, config_sort: '131', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_document, config_value: doc, config_sort: '132', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_document, config_value: pdf, config_sort: '133', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_document, config_value: ppt, config_sort: '134', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_document, config_value: xls, config_sort: '135', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_document, config_value: csv, config_sort: '136', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_document, config_value: docx, config_sort: '137', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_document, config_value: pptx, config_sort: '138', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_document, config_value: xlsx, config_sort: '139', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_archive, config_value: lzh, config_sort: '140', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_archive, config_value: zip, config_sort: '141', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_archive, config_value: rar, config_sort: '142', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_archive, config_value: gca, config_sort: '143', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_archive, config_value: sit, config_sort: '144', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: 3gp, config_sort: '145', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: 3g2, config_sort: '146', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: asf, config_sort: '147', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: avi, config_sort: '148', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: dat, config_sort: '149', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: fli, config_sort: '150', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: flc, config_sort: '151', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: flv, config_sort: '152', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: mkv, config_sort: '153', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: mpg, config_sort: '154', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: mov, config_sort: '155', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: mp4, config_sort: '156', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: ogg, config_sort: '157', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: qt, config_sort: '158', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: rm, config_sort: '159', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: ram, config_sort: '160', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: rmvb, config_sort: '161', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: str, config_sort: '162', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: swf, config_sort: '163', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: ts, config_sort: '164', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: viv, config_sort: '165', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: vob, config_sort: '166', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: wmv, config_sort: '167', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_movie, config_value: amc, config_sort: '168', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_audio, config_value: aac, config_sort: '169', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_audio, config_value: ac3, config_sort: '170', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_audio, config_value: amr, config_sort: '171', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_audio, config_value: mmf, config_sort: '172', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_audio, config_value: mp2, config_sort: '173', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_audio, config_value: mp3, config_sort: '174', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_audio, config_value: mp4, config_sort: '175', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_audio, config_value: mpc, config_sort: '176', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_audio, config_value: ogg, config_sort: '177', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_audio, config_value: ra, config_sort: '178', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_audio, config_value: wav, config_sort: '179', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
+    - { config_key: file_extension_audio, config_value: wma, config_sort: '180', config_rule_id: null, config_module_id: null, config_blog_id: '1' }
 comment: {  }
 dashboard: {  }
 entry:
-    - { entry_id: '1', entry_code: sample.html, entry_status: open, entry_approval: none, entry_form_status: '', entry_sort: '1', entry_user_sort: '1', entry_category_sort: '1', entry_title: サンプル記事, entry_link: '', entry_datetime: '2017-05-23 15:35:33', entry_start_datetime: '1000-01-01 00:00:00', entry_end_datetime: '9999-12-31 23:59:59', entry_posted_datetime: '2017-05-14 04:17:40', entry_updated_datetime: '2017-05-23 11:53:44', entry_summary_range: '2', entry_indexing: 'on', entry_primary_image: '1', entry_current_rev_id: '0', entry_last_update_user_id: '1', entry_hash: e02653b77dbf944fa4663d64cfd153f4, entry_category_id: '1', entry_user_id: '1', entry_form_id: '0', entry_blog_id: '1' }
+    - { entry_id: '1', entry_code: sample.html, entry_status: open, entry_approval: none, entry_form_status: '', entry_sort: '1', entry_user_sort: '1', entry_category_sort: '1', entry_title: サンプル記事, entry_link: '', entry_datetime: '2017-05-23 15:35:33', entry_start_datetime: '1000-01-01 00:00:00', entry_end_datetime: '9999-12-31 23:59:59', entry_posted_datetime: '2017-05-14 04:17:40', entry_updated_datetime: '2017-05-23 15:29:37', entry_summary_range: '2', entry_indexing: 'on', entry_primary_image: '1', entry_current_rev_id: '0', entry_last_update_user_id: '1', entry_hash: e02653b77dbf944fa4663d64cfd153f4, entry_category_id: '1', entry_user_id: '1', entry_form_id: '0', entry_blog_id: '1' }
 field:
     - { field_key: display_pattern, field_value: date, field_sort: '1', field_search: 'on', field_eid: null, field_cid: null, field_uid: null, field_bid: null, field_mid: null, field_blog_id: '1' }
     - { field_key: profile, field_value: 'ここにプロフィールが入ります。管理ページ > ユーザー > カスタム設定より各種設定してください。', field_sort: '1', field_search: 'on', field_eid: null, field_cid: null, field_uid: '1', field_bid: null, field_mid: null, field_blog_id: '1' }
@@ -400,13 +406,13 @@ field:
     - { field_key: image@secret, field_value: 836689f0964eb019805bb979ddb116eb, field_sort: '1', field_search: 'off', field_eid: null, field_cid: null, field_uid: '1', field_bid: null, field_mid: null, field_blog_id: '1' }
 form: {  }
 fulltext:
-    0: { fulltext_value: "CARBON acms27.dev\r\n\n\r", fulltext_ngram: '', fulltext_eid: null, fulltext_cid: null, fulltext_uid: null, fulltext_bid: '1', fulltext_blog_id: '1' }
-    1: { fulltext_value: "このテーマについて feature\r\n\n\r", fulltext_ngram: '', fulltext_eid: null, fulltext_cid: '1', fulltext_uid: null, fulltext_bid: null, fulltext_blog_id: '1' }
-    2: { fulltext_value: "ビルトインモジュール built_in\r\n\n\r", fulltext_ngram: '', fulltext_eid: null, fulltext_cid: '2', fulltext_uid: null, fulltext_bid: null, fulltext_blog_id: '1' }
-    3: { fulltext_value: "コンフィグ config\r\n\n\r", fulltext_ngram: '', fulltext_eid: null, fulltext_cid: '3', fulltext_uid: null, fulltext_bid: null, fulltext_blog_id: '1' }
-    4: { fulltext_value: "ユニット units\r\n\n\r", fulltext_ngram: '', fulltext_eid: null, fulltext_cid: '4', fulltext_uid: null, fulltext_bid: null, fulltext_blog_id: '1' }
-    5: { fulltext_value: "カスタムフィールド customfield\r\n\n\r", fulltext_ngram: '', fulltext_eid: null, fulltext_cid: '5', fulltext_uid: null, fulltext_bid: null, fulltext_blog_id: '1' }
-    7: { fulltext_value: "この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 大見出し（テキストユニット）この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 テキストユニット（本文）この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 中見出し（テキストユニット）この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 小見出し（テキストユニット） この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。 この文章はダミーです。 この文章はダミーです。 この文章はダミーです この文章はダミーです この文章はダミーです #この文章はダミーです この文章はダミーです #この文章はダミーです この文章はダミーです Google Map \r\n\n\rサンプル 1 サンプル記事 sample.html ", fulltext_ngram: '', fulltext_eid: '1', fulltext_cid: null, fulltext_uid: null, fulltext_bid: null, fulltext_blog_id: '1' }
+    - { fulltext_value: "この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 大見出し（テキストユニット）この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 テキストユニット（本文）この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 中見出し（テキストユニット）この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 小見出し（テキストユニット） この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。 この文章はダミーです。 この文章はダミーです。 この文章はダミーです この文章はダミーです この文章はダミーです #この文章はダミーです この文章はダミーです #この文章はダミーです この文章はダミーです Google Map \r\n\n\rサンプル 1 サンプル記事 sample.html ", fulltext_ngram: '', fulltext_eid: '1', fulltext_cid: null, fulltext_uid: null, fulltext_bid: null, fulltext_blog_id: '1' }
+    - { fulltext_value: "CARBON acms27.dev\r\n\n\r", fulltext_ngram: '', fulltext_eid: null, fulltext_cid: null, fulltext_uid: null, fulltext_bid: '1', fulltext_blog_id: '1' }
+    - { fulltext_value: "このテーマについて feature\r\n\n\r", fulltext_ngram: '', fulltext_eid: null, fulltext_cid: '1', fulltext_uid: null, fulltext_bid: null, fulltext_blog_id: '1' }
+    - { fulltext_value: "ビルトインモジュール built_in\r\n\n\r", fulltext_ngram: '', fulltext_eid: null, fulltext_cid: '2', fulltext_uid: null, fulltext_bid: null, fulltext_blog_id: '1' }
+    - { fulltext_value: "コンフィグ config\r\n\n\r", fulltext_ngram: '', fulltext_eid: null, fulltext_cid: '3', fulltext_uid: null, fulltext_bid: null, fulltext_blog_id: '1' }
+    - { fulltext_value: "ユニット units\r\n\n\r", fulltext_ngram: '', fulltext_eid: null, fulltext_cid: '4', fulltext_uid: null, fulltext_bid: null, fulltext_blog_id: '1' }
+    - { fulltext_value: "カスタムフィールド customfield\r\n\n\r", fulltext_ngram: '', fulltext_eid: null, fulltext_cid: '5', fulltext_uid: null, fulltext_bid: null, fulltext_blog_id: '1' }
 module:
     - { module_id: '1', module_identifier: entryBody, module_name: Entry_Body, module_label: エントリー本文, module_description: '', module_status: open, module_scope: local, module_bid: '', module_bid_axis: self, module_uid: '', module_uid_scope: local, module_cid: '', module_cid_scope: global, module_cid_axis: self, module_eid: '', module_eid_scope: global, module_keyword: '', module_keyword_scope: global, module_tag: '', module_tag_scope: global, module_field: '', module_field_scope: local, module_start: null, module_start_scope: local, module_end: null, module_end_scope: local, module_page: '', module_page_scope: global, module_order: '', module_order_scope: local, module_custom_field: '1', module_layout_use: '1', module_blog_id: '1' }
     - { module_id: '2', module_identifier: entryList, module_name: Entry_List, module_label: エントリーリスト, module_description: '', module_status: open, module_scope: local, module_bid: '', module_bid_axis: self, module_uid: '', module_uid_scope: local, module_cid: '', module_cid_scope: local, module_cid_axis: self, module_eid: '', module_eid_scope: local, module_keyword: '', module_keyword_scope: local, module_tag: '', module_tag_scope: local, module_field: '', module_field_scope: local, module_start: null, module_start_scope: local, module_end: null, module_end_scope: local, module_page: '', module_page_scope: local, module_order: '', module_order_scope: local, module_custom_field: '1', module_layout_use: '1', module_blog_id: '1' }
@@ -425,5 +431,5 @@ layout_grid:
     - { layout_grid_identifier: carbonIndexLayout, layout_grid_serial: '1', layout_grid_class: col8-4, layout_grid_parent: '0', layout_grid_col: '1', layout_grid_row: '1', layout_grid_mid: '0', layout_grid_preview: '0', layout_grid_tpl: '', layout_grid_blog_id: '1' }
     - { layout_grid_identifier: carbonIndexLayout, layout_grid_serial: '2', layout_grid_class: module, layout_grid_parent: '1', layout_grid_col: '1', layout_grid_row: '1', layout_grid_mid: '1', layout_grid_preview: '0', layout_grid_tpl: '', layout_grid_blog_id: '1' }
     - { layout_grid_identifier: carbonIndexLayout, layout_grid_serial: '3', layout_grid_class: module, layout_grid_parent: '1', layout_grid_col: '2', layout_grid_row: '1', layout_grid_mid: '7', layout_grid_preview: '0', layout_grid_tpl: '', layout_grid_blog_id: '1' }
-    - { layout_grid_identifier: carbonIndexLayout, layout_grid_serial: '4', layout_grid_class: module, layout_grid_parent: '1', layout_grid_col: '2', layout_grid_row: '3', layout_grid_mid: '6', layout_grid_preview: '0', layout_grid_tpl: '', layout_grid_blog_id: '1' }
-    - { layout_grid_identifier: carbonIndexLayout, layout_grid_serial: '5', layout_grid_class: module, layout_grid_parent: '1', layout_grid_col: '2', layout_grid_row: '4', layout_grid_mid: '2', layout_grid_preview: '0', layout_grid_tpl: '', layout_grid_blog_id: '1' }
+    - { layout_grid_identifier: carbonIndexLayout, layout_grid_serial: '4', layout_grid_class: module, layout_grid_parent: '1', layout_grid_col: '2', layout_grid_row: '2', layout_grid_mid: '6', layout_grid_preview: '0', layout_grid_tpl: '', layout_grid_blog_id: '1' }
+    - { layout_grid_identifier: carbonIndexLayout, layout_grid_serial: '5', layout_grid_class: module, layout_grid_parent: '1', layout_grid_col: '2', layout_grid_row: '3', layout_grid_mid: '2', layout_grid_preview: '0', layout_grid_tpl: '', layout_grid_blog_id: '1' }
