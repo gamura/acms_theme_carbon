@@ -1,4 +1,4 @@
-# a-blog cms 用のテーマ『Carbon』
+# a-blog cms 用テーマ『Carbon』
 
 ---
 
@@ -7,13 +7,21 @@ version 1.0.0
 Author: Hisato Ishikawa    
 Web: [hisato.me](https://hisato.me/)
 
-Copyright (c) 2017 Hisato Ishikawa
+Copyright (c) 2017 Hisato Ishikawa   
+Released under the MIT license   
+[https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
 
 ---
 
 ## このテーマについて
 
-「Carbon（カーボン）」は、a-blog cms用のテーマ。2カラムのブログスタイルです。
+「Carbon（カーボン）」は、a-blog cms用のテーマ。2カラムのブログスタイルです。   
+
+商用・非商用問わず、無償でご利用いただけます。   
+よろしければ、ご利用いただいたサイトを教えてください。   
+今後の開発・修正等に役立てていきます。
+
+a-blog cms用テーマ「Carbon」は、[MITライセンス](https://opensource.org/licenses/MIT)のもとで配布いたします。
 
 ## 構成（template.yaml）
 
@@ -58,6 +66,11 @@ tpl_login       : login.html
 
 画像や動画、地図のサイズは「横幅100%」の一択です。
 
+## 設定方法
 
+現在、作成しています。お待ちください。   
+
+### 参考
+[a-blog cmsのデータをブログ単位でインポートする](https://developer.a-blogcms.jp/document/datamanagement/blogImport.html)
  
  
